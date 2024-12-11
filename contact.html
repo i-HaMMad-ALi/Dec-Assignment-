@@ -3,9 +3,330 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Contact us</title>
 </head>
 <body>
+    <style>
+body{
+    background: url(bmw.webp) ;
+    margin: 0;
+    padding: 0;
+
+}
+
+.box1 {
+            width: 100%;
+            height: 120px;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            align-items: center;
+            padding: 0 50px;
+            position: sticky;
+        }
+
+        ul {
+            display: flex;
+            color: rgb(0, 0, 0);
+            font-weight: bolder;
+            list-style: none;
+        }
+
+        li {
+            margin-left: 30px;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo-container img {
+            width: 80px;
+            height: 80px;
+            animation: spin 5s ease infinite;
+        }
+
+        @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        li:hover {
+            text-decoration: underline;
+        }
+
+form{
+
+   top: 200px;
+            left: 780px;
+            padding: 20px 50px 50px 50px;
+            width: 400px;
+            position: absolute;
+            background-color: white;
+            box-shadow: 5px 5px 5px 5px gray;
+height: 600px;
+}
+
+
+label{
+font-size: bold;
+margin-bottom: 5px;
+color: black;
+
+}
+
+input{
+width: 100%;
+padding: 10px;
+margin-bottom: 15px;
+border: 1px solid black;
+border-radius: 5px;
+box-sizing: border-box;
+    font-size: 16px;
+    background-color: #f2f2f2;
+    color: #333;
+
+}
+
+button {
+    font-weight: bold;
+  margin-top: 50px;
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+
+    background-color:rgb(57, 46, 222) ;
+    transition: 2s;
+    color: white;
+}
+
+
+
+
+#Btn2:hover {
+
+background-color: rgb(0, 24, 207, 0.86);
+transition: 2s;
+animation-name: rbg;
+
+animation-duration: 5s;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-play-state: running;
+}
+
+@keyframes rbg {
+50.0% {
+    background-color: red;
+}
+
+
+}
+
+.btn1 {
+
+
+margin-top: 210px;
+margin-left: 50px;
+
+background-color: #0754B7;
+color: white;
+padding: 15px 100px;
+font-family: Arial, Helvetica, sans-serif;
+border: none;
+border-radius: 5px;
+font-size: 15px;
+
+
+}
+
+#Btn2 {
+background-color: #0754B7;
+color: white;
+padding: 15px 100px;
+
+margin-top: 210px;
+margin-left: 50px;
+font-family: Arial, Helvetica, sans-serif;
+border: none;
+border-radius: 5px;
+font-size: 15px;
+}
+
+.logo1 {
+
+
+background: rgba(255, 255, 255, 0);
+font-size: 25px;
+color: black;
+position: absolute;
+margin-left: 340px;
+margin-top: 210px;
+border: none;
+
+
+}
+
+
+
+.logo2 {
+
+
+background: rgba(255, 255, 255, 0);
+font-size: 25px;
+color: black;
+position: absolute;
+margin-left: 420px;
+margin-top: 210px;
+border: none;
+
+}
+
+.logo3 {
+
+
+background: rgba(255, 255, 255, 0);
+font-size: 25px;
+color: black;
+position: absolute;
+margin-left: 500px;
+margin-top: 210px;
+border: none;
+
+}
+
+.logo4 {
+
+
+background: rgba(255, 255, 255, 0);
+font-size: 25px;
+
+color: black;
+position: absolute;
+margin-left: 580px;
+margin-top: 210px;
+border: none;
+
+}
+
+.logo1:hover {
+
+background-color: blue;
+color: white;
+transition: 2s;
+}
+
+.logo2:hover {
+
+background-color: blue;
+color: white;
+transition: 2s;
+
+
+}
+
+.logo3:hover {
+
+background-color: blue;
+color: white;
+transition: 2s;
+
+
+}
+
+
+.logo4:hover {
+
+background-color: blue;
+color: white;
+transition: 2s;
+
+
+}
+
+a{
+
+text-decoration: none;
+color: rgb(0, 0, 0);
+transition: 2s;
+        }
+
+        
+
+    </style>
+
+
+
+<div class="box1">
+    <div class="logo-container">
+        <a href="index.html">
+        <img class="logo" src="logo.png" alt="logo">
+    </a>
+    </div>
+
+    <ul>
+        <a href="form.html"><li>Contact Us</li></a>
+        <a href="About_us.html"><li>About Us</li></a>
+        <li>Owners</li>
+        <li>More tools</li>
+        <li style="margin-left: 700px;">0800 00 269(BMW)</li>
+        <li style="margin-left: 1020px;position: absolute;"><i class="fa-solid fa-phone"></i></li>
+        <li style="font-size: large;"><i class="fa-solid fa-location-dot"></i></li>
+        
+
+    </ul>
+</div>
+
+
+
+<form action="">
+<h1>Enquiry Form</h1>
+<label for="">Username</label>
+
+<input type="text" name="Username" required="true" >
+<br>
+<br>
+<label for="">Password</label>
+
+<input type="text" name="Password" required="true">
+<br>
+<br>
+<label for="">Phone number</label>
+
+<input type="text" name="Phone number" >
+<br>
+<br>
+<label for="">Email address</label>
+<input type="text" name="Email address" >
+<br>
+<br>
+<label for="">Message</label>
+<input type="text" name="Message" >
+
+<button>submit</button>
+
+</form>
+
+
+
+
+
+
+
 
 
     
